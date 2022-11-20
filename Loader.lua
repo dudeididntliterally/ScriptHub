@@ -1,3 +1,13 @@
+--Games List:
+
+--Tower Of Misery (Normal Mode)
+--Tower Of Misery (Difficult Mode)
+--Tower Of Hell
+--50/50 Pick A Door
+--Tower Of Madness
+--Rays Mod
+--More Soon!
+
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
