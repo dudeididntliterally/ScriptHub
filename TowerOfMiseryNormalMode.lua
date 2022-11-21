@@ -830,7 +830,7 @@ Callback = function(bring)
 	cmdlp.CharacterAdded:Wait()
 end})
 
-Main:AddButton({
+Fun:AddButton({
 Name = "Auto Collect Beyblades (loop)",
 Callback = function()
 while wait() do
@@ -845,7 +845,7 @@ firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v, 1)
    end
 end})
 
-Main:AddButton({
+Fun:AddButton({
 Name = "Auto Collect Gems (loop)",
 Callback = function()
 while wait() do
