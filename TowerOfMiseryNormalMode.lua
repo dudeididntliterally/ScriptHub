@@ -829,3 +829,33 @@ Callback = function(bring)
 	cmdlp.Character:Remove()
 	cmdlp.CharacterAdded:Wait()
 end})
+
+Main:AddButton({
+Name = "Collect Beyblades",
+Callback = function()
+while wait() do
+   pcall(function()
+   for i,v in pairs(game.Workspace.Itens:GetDescendants()) do
+   if string.find(v.Name, "Top") then
+       firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v, 1)
+   end
+   end
+   end)
+   end
+end})
+
+Main:AddButton({
+Name = "Collect Gems",
+Callback = function()
+while wait() do
+   pcall(function()
+   for i,v in pairs(game.Workspace.Tower:GetDescendants()) do
+   if string.find(v.Name, "Emerald") then
+       firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v, 1)
+   end
+   end
+   end)
+   end
+end})
