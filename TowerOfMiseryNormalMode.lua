@@ -831,7 +831,7 @@ Callback = function(bring)
 end})
 
 Main:AddButton({
-Name = "Collect Beyblades",
+Name = "Auto Collect Beyblades (loop)",
 Callback = function()
 while wait() do
    pcall(function()
@@ -846,7 +846,7 @@ firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v, 1)
 end})
 
 Main:AddButton({
-Name = "Collect Gems",
+Name = "Auto Collect Gems (loop)",
 Callback = function()
 while wait() do
    pcall(function()
