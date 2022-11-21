@@ -35,8 +35,8 @@ if response.Body ~= "404: Not Found" then
     loadstring(response.Body)()
 else
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Zacks Cool Hub Error",
-        Text = "The game you are trying to play is not supported with Zacks Cool Hub! (MORE SOON)",
+        Title = "Unsupported Game.",
+        Text = "Loading universal mode...",
         Duration = 5
     })
     return
