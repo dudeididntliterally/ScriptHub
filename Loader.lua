@@ -9,6 +9,8 @@
 --Hide And Seek Extreme
 --UPCOMING SCRIPTS: Every second you get +1 health, probably some simulator games or something to mess around on.
 
+--Universal is also a option for: Walkspeed, Jumppower, noclip and a few more!
+
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
