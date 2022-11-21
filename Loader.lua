@@ -6,7 +6,8 @@
 --50/50 Pick A Door
 --Tower Of Madness
 --Rays Mod
---More Soon!
+--Hide And Seek Extreme
+--UPCOMING SCRIPTS: Every second you get +1 health, probably some simulator games or something to mess around on.
 
 if not game:IsLoaded() then
     game.Loaded:Wait()
