@@ -210,6 +210,8 @@ Callback = function()
     player.HumanoidRootPart.CFrame = win.CFrame
     wait(0.4)
     fireproximityprompt(game:GetService("Workspace").Tower.Winners.WinnersRoomEntrance.Attachment.ProximityPrompt)
+wait(0.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9973.25781, 17.9999943, -0.0730417296)
 end})
 
 Main:AddButton({
