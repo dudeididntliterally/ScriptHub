@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/dudeididntliterally/ScriptHub/main/TOH.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dudeididntliterally/ScriptHub/main/TowerOfHell.lua"))()
