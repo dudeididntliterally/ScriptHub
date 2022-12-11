@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Zacks Cool Hub | Tower Of Hell", HidePremium = true, IntroText = "Tower Of Hell Is Bad Lmao" SaveConfig = false, ConfigFolder = "ZCH"})
+local Window = OrionLib:MakeWindow({Name = "Zacks Cool Hub | Tower Of Hell", HidePremium = true, IntroText = "Tower Of Hell Is Bad Lmao", SaveConfig = false, ConfigFolder = "ZCH"})
 local Main = Window:MakeTab({
 	Name = "Main",
 	Icon = "rbxassetid://4483345998",
